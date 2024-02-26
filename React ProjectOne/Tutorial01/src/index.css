@@ -1,0 +1,51 @@
+.card {
+  margin: 10px;
+  padding: 5px;
+  height: 214px;
+  width: 140px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.101);
+  display: inline-block;
+}
+img.cardImage {
+  width: 140px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cardHeading {
+  font-family: "Sacramento", cursive;
+  color: darkblue;
+  text-align: center;
+}
+
+.cardPara {
+  text-align: center;
+  color: darkblue;
+  font-family: "Sacramento", cursive;
+}
+
+/* .button {
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* the above css is part of what we call as external stylesheet */
+/* there are other two options on creating a css : Modules and Inline */
+
+.students {
+  font-family: "Sacremento", cursive;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 0%, 0.333);
+  width: 300px;
+  margin: 10px;
+}
+.students p {
+  margin: 0px;
+}
